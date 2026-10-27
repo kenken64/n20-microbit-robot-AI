@@ -1,0 +1,5 @@
+Revision AQ load-repair candidate: added missing UUIDs to 3 top-level text objects.
+This is a syntactic repair hypothesis; KiCad CLI was unavailable here.
+Run: bash scripts/run_erc_mac.sh
+If loading still fails, open schematic in KiCad GUI and capture exact error, or run kicad-cli sch erc and share output.
+Do not treat this as electrical validation.

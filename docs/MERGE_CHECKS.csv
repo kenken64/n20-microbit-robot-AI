@@ -1,0 +1,12 @@
+Check,Result,Notes
+AK analog instance U70,PRESENT,"Already in AP; retained, not duplicated"
+AK analog instance J70,PRESENT,"Already in AP; retained, not duplicated"
+AK analog instance R70,PRESENT,"Already in AP; retained, not duplicated"
+AK analog instance R78,PRESENT,"Already in AP; retained, not duplicated"
+AK analog instance C74,PRESENT,"Already in AP; retained, not duplicated"
+Obsolete J20,ABSENT,Old QTRX connector not restored
+Duplicate references,0,Static scan
+TMUX SEL1-4,input,Electrical types revised
+TMUX VDD/GND,power_in,Electrical types revised
+TMUX S/D,passive,Bidirectional analog paths; review manufacturer mapping
+Official KiCad ERC,NOT RUN,kicad-cli unavailable in build environment

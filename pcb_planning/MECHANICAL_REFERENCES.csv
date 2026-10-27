@@ -1,0 +1,15 @@
+Feature,Chassis X mm,Chassis Y mm,KiCad X mm,KiCad Y mm,Type,Notes
+M3 PCB mounting hole,-37,-45.5,63,54.5,3.2mm NPTH,74 x 91 mm hole pattern; verify spacer washer access
+M3 PCB mounting hole,-37,45.5,63,145.5,3.2mm NPTH,74 x 91 mm hole pattern; verify spacer washer access
+M3 PCB mounting hole,37,-45.5,137,54.5,3.2mm NPTH,74 x 91 mm hole pattern; verify spacer washer access
+M3 PCB mounting hole,37,45.5,137,145.5,3.2mm NPTH,74 x 91 mm hole pattern; verify spacer washer access
+Battery cradle M2,-35,-32,65,68,3D reference only,Not drilled on PCB
+Battery cradle M2,-35,8,65,108,3D reference only,Not drilled on PCB
+Battery cradle M2,35,-32,135,68,3D reference only,Not drilled on PCB
+Battery cradle M2,35,8,135,108,3D reference only,Not drilled on PCB
+Ultrasonic holder fastener,-19,-46,81,54,3D reference only,Not drilled on PCB
+Ultrasonic holder fastener,19,-46,119,54,3D reference only,Not drilled on PCB
+N20 saddle centre,-52,30,48,130,3D reference only,Wheel centre x=+-71; axle z=22
+N20 saddle centre,52,30,152,130,3D reference only,Wheel centre x=+-71; axle z=22
+Caster centre,0,44,100,144,3D reference only,Bridge and ball opening below PCB
+Vertical socket centre,0,-18,100,82,BODY ONLY,Actual socket pad pattern unverified

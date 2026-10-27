@@ -1,0 +1,2 @@
+Found 384 violations
+Saved ERC Report to erc_report_AU.txt

@@ -1,0 +1,14 @@
+Reference/group,Function,KiCad X mm,KiCad Y mm,Side,Release note
+JMB1,Vertical micro:bit socket,100,82,F,DO NOT PLACE - manufacturer pin mapping and fit unverified
+U_PWR5,TPS630701 buck-boost,98,107,F,Keep switch node and inductor loop tight; actual IC footprint pending
+L1,1.5uH power inductor,103,108,F,Next to buck-boost IC; verify courtyard and copper
+U_PWR33,3.3V LDO,119,104,F,Keep output bypass adjacent
+U_PWR30,3.0V micro:bit battery regulator,124,111,F,USB/battery coexistence not validated
+U_MOTOR,DRV8833,120,126,F,VM bulk capacitor adjacent; thermal copper and exposed pad
+J_ML,Left motor JST PH,64,125,F,Edge orientation and cable bend radius TBD
+J_MR,Right motor JST PH,136,125,F,Check hole-to-edge and wheel cable access
+U_ANALOG,TMUX1511,80,121,F,ADC traces separated from motor outputs
+J_QTRX,QTRX harness connector,83,64,F,Exact module header mapping unverified
+J_US,Ultrasonic harness connector,115,64,F,3.3V module; mechanical holder clearance
+U_LED_BUF,AHCT LED buffer,95,139,F,5V logic and 3V GPIO isolation sequencing check
+D_LED1-4,Four SK6812 LEDs,100,143,F,Positions illustrative; preserve visibility and decoupling

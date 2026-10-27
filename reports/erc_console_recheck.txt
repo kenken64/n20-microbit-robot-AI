@@ -1,0 +1,2 @@
+Found 475 violations
+Saved ERC Report to erc_report_recheck.txt

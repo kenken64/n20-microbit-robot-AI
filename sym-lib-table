@@ -1,0 +1,4 @@
+(sym_lib_table
+ (lib (name "N20Power")(type "KiCad")(uri "${KIPRJMOD}/N20Power.kicad_sym")(options "")(descr "Local project symbols"))
+ (lib (name "Robot")(type "KiCad")(uri "${KIPRJMOD}/Robot.kicad_sym")(options "")(descr "Local project symbols"))
+)

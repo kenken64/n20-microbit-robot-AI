@@ -1,0 +1,7424 @@
+(export
+	(version "E")
+	(design
+		(source "/Users/kennethphang/Projects/microbit_N20_RevAQ_REISSUED_20261027/microbit_N20_revAQ.kicad_sch")
+		(date "2026-10-28T06:16:30")
+		(tool "Eeschema 10.0.7")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "N20 robot power and GPIO isolation - engineering draft")
+				(company)
+				(rev "AP - TYPED SYMBOLS / ERC PENDING")
+				(date)
+				(source "microbit_N20_revAQ.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "C2")
+			(value "10uF 25V")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "62db825f-5b1c-4b8c-9fe1-5d849b84a082")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "22uF 16V")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "be4679f6-7517-4cf2-aa90-8af0e8011620")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "22uF 16V")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "54044718-70cb-4c86-84b0-8ea9075bf9b0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C5")
+			(value "22uF 16V")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "71e2ca55-bbe0-4fa5-989a-f9f289db0ebc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9524b395-3e01-420e-9854-eb52b913ad3c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C7")
+			(value "10uF 25V")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9853f288-0d32-4087-a6ae-2caf1c6eeeb3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C8")
+			(value "10uF 10V")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3e2f69e6-d8aa-4bf4-b103-1354a1bc5e48")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C9")
+			(value "10uF 25V")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ccbdb0d3-8557-4998-900b-5caf1a042bfa")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C10")
+			(value "1uF 10V")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "323e2e71-2193-41ef-8b4e-51d7f99c223c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C11")
+			(value "1uF X7R 10V")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a44821a4-7647-42fb-b09e-dd3794cdfe21")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C12")
+			(value "1uF X7R 10V")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9526df3e-6026-4a8c-84df-880cee5081c0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C13")
+			(value "100nF X7R")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6f1d184d-6821-4523-8637-694dfa3349b3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C14")
+			(value "100nF X7R")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "844fe863-a7bb-41cb-ac89-80e8c637fd80")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C15")
+			(value "100nF X7R")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "17a3b31b-9f1e-4b10-9133-ae6ccc6fc1a3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C16")
+			(value "100nF X7R")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cd44e73d-f623-4b66-a2c1-0108c61bbc0d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C17")
+			(value "100nF X7R")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "86d9f21b-833c-4cd8-9641-dc220ffba408")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C18")
+			(value "100nF X7R")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "87abbb87-3a3a-4101-9c78-eb19b4c6eba3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C19")
+			(value "100nF X7R")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3f648934-11f4-46ec-bf4d-3b5e86ba30db")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C23")
+			(value "100nF X7R")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8b8fd600-4334-4a36-8cc5-4fb0fe7b3ea8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C24")
+			(value "100nF X7R")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f185ba9c-37c6-41e0-bebc-b3d398b8d594")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C25")
+			(value "100nF X7R")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8ed9c946-7f89-49d5-8b4d-0ea3a2c160da")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C26")
+			(value "100nF X7R")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3cf46fa5-fa99-429b-a7a8-296a7fc98b6f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C27")
+			(value "100nF X7R")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4ca9dcad-5108-429e-b949-8da5f2801f4e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C28")
+			(value "100nF X7R")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "125d88eb-36ef-49bd-b2b7-961a9cdd6366")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C29")
+			(value "100nF X7R")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7f0486e7-2816-47ae-960d-02be2411d7f7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C43")
+			(value "22uF 16V X7R")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "db61c2fd-e8b3-41eb-9e99-912e1fb05b38")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C44")
+			(value "100nF 16V X7R")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3186a69b-8b99-4583-97c7-f2f0686604b5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C45")
+			(value "2.2uF 10V X7R")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e5c6d916-c1cb-4545-848d-5f387b56e93f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C46")
+			(value "10nF 25V X7R")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f390f5d5-51dd-4a1c-bb1a-7a603b98ae0e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C50")
+			(value "100nF X7R 10V")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1ffaf2f1-4c7c-4c3a-a3cc-d57e8b6c7bbd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C51")
+			(value "100nF X7R 10V")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "02255387-e9d4-47ad-b9dd-be4c6e785c52")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C52")
+			(value "100nF X7R 10V")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "afcb2904-7cb2-4af1-bf7e-3d08a03c6008")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C53")
+			(value "100nF X7R 10V")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cd019441-34fd-4063-9d1d-e0ba6782bcc5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C54")
+			(value "100nF 10V")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "208abb64-e800-4afd-b565-fb1677d47163")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C55")
+			(value "100uF 10V")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Capacitor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3ee85a47-375b-42e1-8637-e17fa417d946")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C70")
+			(value "1nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Robot")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2151832a-dd90-4749-a12d-48190c7d38c6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C71")
+			(value "1nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Robot")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "60eaf5ba-f060-4a6c-98ba-d84acc0c681e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C72")
+			(value "1nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Robot")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a4b403c4-052d-454e-ae2f-fe3fe4953ab3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C73")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Robot")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d26f3c01-15c1-48db-b480-bbea970f0a8c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C74")
+			(value "1uF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Robot")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6bb6a5a7-f8d5-4e3c-ab07-68afc0d47203")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "SS34 reverse polarity")
+			(footprint "Diode_SMD:D_SMA")
+			(fields
+				(field
+					(name "Footprint") "Diode_SMD:D_SMA")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Diode_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b1b5f7d5-05d6-4836-a7ca-b36ae89fa215")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D20")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "SK6812MINIE_REV02")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "80658290-866c-49b1-a7b2-61335d442c3f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D21")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "SK6812MINIE_REV02")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d08304f8-0f00-4fd4-b9db-3e79a6233155")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D22")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "SK6812MINIE_REV02")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4f042e13-d363-4ff9-9ad5-77f08504a39f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D23")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "SK6812MINIE_REV02")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "76ac1415-d0d7-4005-a530-3115f471fa6f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "F1")
+			(value "PTC TBD")
+			(footprint "Fuse:Fuse_1206_3216Metric")
+			(fields
+				(field
+					(name "Footprint") "Fuse:Fuse_1206_3216Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Fuse_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "95731a3a-6a57-49bc-9e95-7c0d4bc6b3c4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "4xAA Pololu 1153")
+			(footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
+			(fields
+				(field
+					(name "Footprint") "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Battery_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5442363c-5f83-45ed-8e8d-d0b7822d3596")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J3")
+			(value "DRV8833 motor/control interface")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Motor_Interface")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "65ea5ac9-3b12-44b9-b23a-761eb73e332f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J4")
+			(value "QTRX 3-sensor interface")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Sensor_Interface")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9c30de78-5167-4071-a4bc-60cd29c9df76")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J5")
+			(value "SK6812 + level shift interface")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "LED_Interface")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8df4eec9-02b1-4be0-afde-833699ea55b2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J6")
+			(value "micro:bit battery JST 3.0V")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Battery_JST_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "22790737-4b88-4db1-bd0c-e31a116b2ebb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J8")
+			(value "RIGHT N20 motor JST PH")
+			(footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
+			(fields
+				(field
+					(name "Footprint") "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Motor_JST_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8b349a56-ddaf-454c-a339-490339fce9e8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J21")
+			(value "SparkFun SEN-24049 HC-SR04-33")
+			(footprint "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical")
+			(fields
+				(field
+					(name "Footprint") "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Ultrasonic_JST_4")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9b40770c-34d5-482b-85c8-cca00dcdec8f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J70")
+			(value "QTRX-MD-03A HARNESS")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Robot")
+				(part "QTRX_HARNESS")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1df3bdd2-4887-4089-9542-f2cba757e787")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J71")
+			(value "LEFT N20 motor JST PH")
+			(footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
+			(fields
+				(field
+					(name "Footprint") "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Motor_JST_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0851bd33-1ff0-411c-99aa-1a7d18ea97d0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L1")
+			(value "1.5uH XFL4020-152")
+			(footprint "Inductor_SMD:L_Coilcraft_XFL4020")
+			(fields
+				(field
+					(name "Footprint") "Inductor_SMD:L_Coilcraft_XFL4020")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Inductor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0f77faa3-9664-4e0d-a313-1fa2239d2529")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "100k PG pullup")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Resistor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c9fcf496-80ac-418a-b415-ce662d239adc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R11")
+			(value "100k pull-down")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Resistor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "61279fe2-065a-4cd3-92e0-e3e92c7632d6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R12")
+			(value "100k pull-down")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Resistor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bfb16e69-0a1f-43a7-add0-741748316dd5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R13")
+			(value "100k pull-down")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Resistor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "22f4a15c-550a-47b2-95b1-3e0e435515a7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R14")
+			(value "100k pull-down")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Resistor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f5c1a6fd-1d91-4633-a5ce-8347bb66e6e7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R25")
+			(value "10k 0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Resistor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b612f5e9-84cb-4c37-8502-58fd73e85221")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R26")
+			(value "10k 0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Resistor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "76afad67-d12a-4ec9-9530-ec59e95b1af5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R30")
+			(value "330R LED data")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Resistor_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "501eab9e-61b9-49b1-a7a1-1c94de4f5993")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R70")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Robot")
+				(part "R")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3c443678-eb8e-4371-b678-f6bd4db3e6b6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R71")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Robot")
+				(part "R")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "73844064-7632-4ebf-a88e-0727644676d6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R72")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Robot")
+				(part "R")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c6b791da-209e-41da-a518-046842d70dfd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R73")
+			(value "22k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Robot")
+				(part "R")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a363ed9c-3865-43d8-8d69-f4f0d07dad69")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R74")
+			(value "22k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Robot")
+				(part "R")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "035c7c57-ffb7-4fef-97de-bba8edb2294e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R75")
+			(value "22k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Robot")
+				(part "R")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d45e042f-38e1-471a-8265-a575036abe60")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R76")
+			(value "1k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Robot")
+				(part "R")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d5ac093b-6905-43ad-8c41-d435307c82f7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R77")
+			(value "1k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Robot")
+				(part "R")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9b693ec1-83e0-4ed5-8374-0dc23e480283")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R78")
+			(value "1k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Robot")
+				(part "R")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e158e6f1-910c-47f1-b728-a82881656136")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW1")
+			(value "SWITCH TBD")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "Switch_2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0665bcb3-a856-468a-a6f5-08abae81fd26")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "TPS630701RNMR")
+			(footprint "Package_DFN_QFN:Texas_RNM0015A_VQFN-HR-15_2.5x3.0mm_P0.5mm")
+			(fields
+				(field
+					(name "Footprint") "Package_DFN_QFN:Texas_RNM0015A_VQFN-HR-15_2.5x3.0mm_P0.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "TPS630701_RNM")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "868a4f19-db47-4e59-9ef4-303421c793bd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "TLV75533PDBVR")
+			(footprint "Package_TO_SOT_SMD:SOT-23-5")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "TLV75533_DBV")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "53ff84e7-e188-47d8-ace0-7c4b34a6b96b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U3")
+			(value "TPS7A2030PDBVR")
+			(footprint "Package_TO_SOT_SMD:SOT-23-5")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "TPS7A2030_DBV")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e27a7a83-c811-498d-85d3-9038b46ef506")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U4")
+			(value "SN74LVC1T45DBVR")
+			(footprint "Package_TO_SOT_SMD:SOT-23-6")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-6")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "SN74LVC1T45_DBV")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4c0c3a7a-3b52-4be1-8c09-02bbf81096dd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U5")
+			(value "SN74LVC1T45DBVR")
+			(footprint "Package_TO_SOT_SMD:SOT-23-6")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-6")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "SN74LVC1T45_DBV")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3911e931-279e-4de1-9860-e190b54e32f2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U6")
+			(value "SN74LVC1T45DBVR")
+			(footprint "Package_TO_SOT_SMD:SOT-23-6")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-6")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "SN74LVC1T45_DBV")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "af3be112-bced-48f7-93de-da728b15ea7b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U7")
+			(value "SN74LVC1T45DBVR")
+			(footprint "Package_TO_SOT_SMD:SOT-23-6")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-6")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "SN74LVC1T45_DBV")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "08cbed47-0510-431c-bb6a-185852d2d1fd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U8")
+			(value "SN74LVC1T45DBVR")
+			(footprint "Package_TO_SOT_SMD:SOT-23-6")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-6")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "SN74LVC1T45_DBV")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0906fb71-e84f-448e-9622-7b42b7fff0ba")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U9")
+			(value "SN74LVC1T45DBVR")
+			(footprint "Package_TO_SOT_SMD:SOT-23-6")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-6")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "SN74LVC1T45_DBV")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6b93ae64-8ecc-4f4a-b373-5ec3a2aaa84b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U10")
+			(value "SN74LVC1T45DBVR")
+			(footprint "Package_TO_SOT_SMD:SOT-23-6")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-6")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "SN74LVC1T45_DBV")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d67560cb-3f19-45f5-8efc-fe6569a9c4fd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U14")
+			(value "DRV8833PWPR")
+			(footprint "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3x3.4mm")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3x3.4mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "DRV8833_PWP")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d8f17a4d-2d63-4ca1-a272-b1d1ea9074e7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U20")
+			(value "SN74AHCT1G125DBVR")
+			(footprint "Package_TO_SOT_SMD:SOT-23-5")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "N20Power")
+				(part "SN74AHCT1G125_DBV")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "db9053b6-e6b8-470f-baa6-0031bca22497")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U70")
+			(value "TMUX1511PW")
+			(footprint "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Robot")
+				(part "TMUX1511_PW")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "microbit_N20_revAQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4c64196a-d74b-42b7-8e44-f663efae3c56")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "N20Power")
+			(part "Battery_2")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "Battery_2")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "BAT+")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "N20Power")
+			(part "Battery_JST_2")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "Battery_JST_2")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "BATT_POS")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "BATT_NEG")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "N20Power")
+			(part "Capacitor_2")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "Capacitor_2")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "POS")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "NEG")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "N20Power")
+			(part "DRV8833_PWP")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "DRV8833_PWP")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "nSLEEP")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "AOUT1")
+					(type "output")
+				)
+				(pin
+					(num "3")
+					(name "AISEN")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "AOUT2")
+					(type "output")
+				)
+				(pin
+					(num "5")
+					(name "BOUT2")
+					(type "output")
+				)
+				(pin
+					(num "6")
+					(name "BISEN")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "BOUT1")
+					(type "output")
+				)
+				(pin
+					(num "8")
+					(name "nFAULT")
+					(type "open_collector")
+				)
+				(pin
+					(num "9")
+					(name "BIN1")
+					(type "input")
+				)
+				(pin
+					(num "10")
+					(name "BIN2")
+					(type "input")
+				)
+				(pin
+					(num "11")
+					(name "VCP")
+					(type "power_out")
+				)
+				(pin
+					(num "12")
+					(name "VM")
+					(type "power_in")
+				)
+				(pin
+					(num "13")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "14")
+					(name "VINT")
+					(type "power_out")
+				)
+				(pin
+					(num "15")
+					(name "AIN2")
+					(type "input")
+				)
+				(pin
+					(num "16")
+					(name "AIN1")
+					(type "input")
+				)
+				(pin
+					(num "17")
+					(name "EP_GND")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "N20Power")
+			(part "Diode_2")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "Diode_2")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "N20Power")
+			(part "Fuse_2")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "Fuse_2")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "IN")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "OUT")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "N20Power")
+			(part "Inductor_2")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "Inductor_2")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "B")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "N20Power")
+			(part "LED_Interface")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "LED_Interface")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "5V")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "N20Power")
+			(part "Microbit_Edge_Interface")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "Microbit_Edge_Interface")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "MB_EDGE_3V")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "MB_P0")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "MB_P1")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "MB_P2")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "MB_P8")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "MB_P12")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "MB_P13")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "MB_P14")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "MB_P15")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "MB_P16")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "MB_P9")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "N20Power")
+			(part "Motor_Interface")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "Motor_Interface")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VM")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3V3")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "N20Power")
+			(part "Motor_JST_2")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "Motor_JST_2")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "PIN1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "PIN2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "N20Power")
+			(part "Output_2")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "Output_2")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "MB_3V")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "N20Power")
+			(part "Resistor_2")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "Resistor_2")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "B")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "N20Power")
+			(part "SK6812MINIE_REV02")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "SK6812MINIE_REV02")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VDD")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "DOUT")
+					(type "output")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "DIN")
+					(type "input")
+				)
+			)
+		)
+		(libpart
+			(lib "N20Power")
+			(part "SN74AHCT1G125_DBV")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "SN74AHCT1G125_DBV")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "OE_N")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "Y")
+					(type "output")
+				)
+				(pin
+					(num "5")
+					(name "VCC")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "N20Power")
+			(part "SN74LVC1T45_DBV")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "SN74LVC1T45_DBV")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VCCA")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "A")
+					(type "bidirectional")
+				)
+				(pin
+					(num "4")
+					(name "B")
+					(type "bidirectional")
+				)
+				(pin
+					(num "5")
+					(name "DIR")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "VCCB")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "N20Power")
+			(part "Sensor_Interface")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "Sensor_Interface")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "3V3")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "N20Power")
+			(part "Switch_2")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "Switch_2")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "IN")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "OUT")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "N20Power")
+			(part "TLV75533_DBV")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TLV75533_DBV")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "IN")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "5")
+					(name "OUT")
+					(type "power_out")
+				)
+			)
+		)
+		(libpart
+			(lib "N20Power")
+			(part "TPS630701_RNM")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TPS630701_RNM")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "PS_SYNC")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "PG")
+					(type "open_collector")
+				)
+				(pin
+					(num "3")
+					(name "VAUX")
+					(type "power_out")
+				)
+				(pin
+					(num "4")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "FB")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "FB2")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "VOUT_A")
+					(type "power_out")
+				)
+				(pin
+					(num "8")
+					(name "VOUT_B")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "SW_L2")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "PGND")
+					(type "power_in")
+				)
+				(pin
+					(num "11")
+					(name "SW_L1")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "VIN_A")
+					(type "power_in")
+				)
+				(pin
+					(num "13")
+					(name "VIN_B")
+					(type "power_in")
+				)
+				(pin
+					(num "14")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "15")
+					(name "VSEL")
+					(type "input")
+				)
+			)
+		)
+		(libpart
+			(lib "N20Power")
+			(part "TPS7A2030_DBV")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TPS7A2030_DBV")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "IN")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "5")
+					(name "OUT")
+					(type "power_out")
+				)
+			)
+		)
+		(libpart
+			(lib "N20Power")
+			(part "Ultrasonic_JST_4")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "Ultrasonic_JST_4")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VCC")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "TRIG")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "ECHO")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "GND")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Robot")
+			(part "C")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "B")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Robot")
+			(part "QTRX_HARNESS")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "QTRX_HARNESS")
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "3V3")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "OUT1")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "OUT2")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "OUT3")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "CTRL")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "NC")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Robot")
+			(part "R")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "B")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Robot")
+			(part "TMUX1511_PW")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TMUX1511_PW")
+				(field
+					(name "Footprint") "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "SEL1")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "S1")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "D1")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "SEL2")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "S2")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "D2")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "8")
+					(name "D3")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "S3")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "SEL3")
+					(type "input")
+				)
+				(pin
+					(num "11")
+					(name "D4")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "S4")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "SEL4")
+					(type "input")
+				)
+				(pin
+					(num "14")
+					(name "VDD")
+					(type "power_in")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "N20Power")
+			(uri "${KIPRJMOD}/N20Power.kicad_sym")
+		)
+		(library
+			(logical "Robot")
+			(uri "${KIPRJMOD}/Robot.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "/3V3_SYS")
+			(class "Default")
+			(node
+				(ref "C11")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C13")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C14")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C15")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C16")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C17")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C18")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C19")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C74")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J21")
+				(pin "1")
+				(pinfunction "VCC_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "3")
+				(pinfunction "3V3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "1")
+				(pinfunction "3V3_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J70")
+				(pin "1")
+				(pinfunction "3V3_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R25")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R26")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "5")
+				(pinfunction "DIR_5")
+				(pintype "input")
+			)
+			(node
+				(ref "U10")
+				(pin "6")
+				(pinfunction "VCCB_6")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "OUT_5")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U3")
+				(pin "1")
+				(pinfunction "IN_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U3")
+				(pin "3")
+				(pinfunction "EN_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U4")
+				(pin "5")
+				(pinfunction "DIR_5")
+				(pintype "input")
+			)
+			(node
+				(ref "U4")
+				(pin "6")
+				(pinfunction "VCCB_6")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U5")
+				(pin "5")
+				(pinfunction "DIR_5")
+				(pintype "input")
+			)
+			(node
+				(ref "U5")
+				(pin "6")
+				(pinfunction "VCCB_6")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U6")
+				(pin "5")
+				(pinfunction "DIR_5")
+				(pintype "input")
+			)
+			(node
+				(ref "U6")
+				(pin "6")
+				(pinfunction "VCCB_6")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U7")
+				(pin "5")
+				(pinfunction "DIR_5")
+				(pintype "input")
+			)
+			(node
+				(ref "U7")
+				(pin "6")
+				(pinfunction "VCCB_6")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U8")
+				(pin "5")
+				(pinfunction "DIR_5")
+				(pintype "input")
+			)
+			(node
+				(ref "U8")
+				(pin "6")
+				(pinfunction "VCCB_6")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U9")
+				(pin "6")
+				(pinfunction "VCCB_6")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "2")
+			(name "/5V")
+			(class "Default")
+			(node
+				(ref "C10")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C50")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C51")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C52")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C53")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C54")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C55")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D20")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D21")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D22")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D23")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "J5")
+				(pin "1")
+				(pinfunction "5V_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "FB_5")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "VOUT_A_7")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "VOUT_B_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "IN_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "EN_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U20")
+				(pin "5")
+				(pinfunction "VCC_5")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "3")
+			(name "/ADC_NODE1")
+			(class "Default")
+			(node
+				(ref "C70")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R70")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R73")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R76")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "/ADC_NODE2")
+			(class "Default")
+			(node
+				(ref "C71")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R71")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R74")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R77")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "/ADC_NODE3")
+			(class "Default")
+			(node
+				(ref "C72")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R72")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R75")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R78")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "/ANA_SW1")
+			(class "Default")
+			(node
+				(ref "R70")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U70")
+				(pin "3")
+				(pinfunction "D1_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "/ANA_SW2")
+			(class "Default")
+			(node
+				(ref "R71")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U70")
+				(pin "6")
+				(pinfunction "D2_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "/ANA_SW3")
+			(class "Default")
+			(node
+				(ref "R72")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U70")
+				(pin "8")
+				(pinfunction "D3_8")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "/BAT_FUSED")
+			(class "Default")
+			(node
+				(ref "F1")
+				(pin "2")
+				(pinfunction "OUT_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "1")
+				(pinfunction "IN_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "/BAT_RAW")
+			(class "Default")
+			(node
+				(ref "F1")
+				(pin "1")
+				(pinfunction "IN_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "BAT+_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "/BAT_SW")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "2")
+				(pinfunction "OUT_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "12")
+			(name "/GND")
+			(class "Default")
+			(node
+				(ref "C10")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C11")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C12")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C13")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C14")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C15")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C16")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C17")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C18")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C19")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C23")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C24")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C25")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C26")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C27")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C28")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C29")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C43")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C44")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C45")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C50")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C51")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C52")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C53")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C54")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C55")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C70")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C71")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C72")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C73")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C74")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C9")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D20")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D21")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D22")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D23")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J21")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J5")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J6")
+				(pin "2")
+				(pinfunction "BATT_NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J70")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R12")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R14")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R73")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R74")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R75")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "PS_SYNC_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "10")
+				(pinfunction "PGND_10")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "15")
+				(pinfunction "VSEL_15")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U10")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U14")
+				(pin "13")
+				(pinfunction "GND_13")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U14")
+				(pin "17")
+				(pinfunction "EP_GND_17")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U14")
+				(pin "3")
+				(pinfunction "AISEN_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U14")
+				(pin "6")
+				(pinfunction "BISEN_6")
+				(pintype "input")
+			)
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U20")
+				(pin "1")
+				(pinfunction "OE_N_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U20")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U3")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U5")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U6")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U7")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U70")
+				(pin "13")
+				(pinfunction "SEL4_13")
+				(pintype "input")
+			)
+			(node
+				(ref "U70")
+				(pin "7")
+				(pinfunction "GND_7")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U8")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U9")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U9")
+				(pin "5")
+				(pinfunction "DIR_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "13")
+			(name "/LED_BUF_OUT")
+			(class "Default")
+			(node
+				(ref "R30")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U20")
+				(pin "4")
+				(pinfunction "Y_4")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "14")
+			(name "/LED_CHAIN_1")
+			(class "Default")
+			(node
+				(ref "D20")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "output")
+			)
+			(node
+				(ref "D21")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "15")
+			(name "/LED_CHAIN_2")
+			(class "Default")
+			(node
+				(ref "D21")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "output")
+			)
+			(node
+				(ref "D22")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "16")
+			(name "/LED_CHAIN_3")
+			(class "Default")
+			(node
+				(ref "D22")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "output")
+			)
+			(node
+				(ref "D23")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "17")
+			(name "/LED_DATA_3V3")
+			(class "Default")
+			(node
+				(ref "U10")
+				(pin "4")
+				(pinfunction "B_4")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U20")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "18")
+			(name "/LED_DIN_1")
+			(class "Default")
+			(node
+				(ref "D20")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "input")
+			)
+			(node
+				(ref "R30")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "/LED_LAST_DOUT")
+			(class "Default")
+			(node
+				(ref "D23")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "20")
+			(name "/MB_BATT_3V0")
+			(class "Default")
+			(node
+				(ref "C12")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J6")
+				(pin "1")
+				(pinfunction "BATT_POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "5")
+				(pinfunction "OUT_5")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "21")
+			(name "/MB_EDGE_3V")
+			(class "Default")
+			(node
+				(ref "C23")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C24")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C25")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C26")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C27")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C28")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C29")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C73")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "1")
+				(pinfunction "VCCA_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "1")
+				(pinfunction "VCCA_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U5")
+				(pin "1")
+				(pinfunction "VCCA_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U6")
+				(pin "1")
+				(pinfunction "VCCA_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U7")
+				(pin "1")
+				(pinfunction "VCCA_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U70")
+				(pin "1")
+				(pinfunction "SEL1_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U70")
+				(pin "10")
+				(pinfunction "SEL3_10")
+				(pintype "input")
+			)
+			(node
+				(ref "U70")
+				(pin "14")
+				(pinfunction "VDD_14")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U70")
+				(pin "4")
+				(pinfunction "SEL2_4")
+				(pintype "input")
+			)
+			(node
+				(ref "U8")
+				(pin "1")
+				(pinfunction "VCCA_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U9")
+				(pin "1")
+				(pinfunction "VCCA_1")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "22")
+			(name "/MB_P0")
+			(class "Default")
+			(node
+				(ref "R76")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "/MB_P1")
+			(class "Default")
+			(node
+				(ref "R77")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "/MB_P2")
+			(class "Default")
+			(node
+				(ref "R78")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "25")
+			(name "/MB_P8")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "3")
+				(pinfunction "A_3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "26")
+			(name "/MB_P9")
+			(class "Default")
+			(node
+				(ref "U10")
+				(pin "3")
+				(pinfunction "A_3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "27")
+			(name "/MB_P12")
+			(class "Default")
+			(node
+				(ref "U5")
+				(pin "3")
+				(pinfunction "A_3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "28")
+			(name "/MB_P13")
+			(class "Default")
+			(node
+				(ref "U6")
+				(pin "3")
+				(pinfunction "A_3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "29")
+			(name "/MB_P14")
+			(class "Default")
+			(node
+				(ref "U7")
+				(pin "3")
+				(pinfunction "A_3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "30")
+			(name "/MB_P15")
+			(class "Default")
+			(node
+				(ref "U8")
+				(pin "3")
+				(pinfunction "A_3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "31")
+			(name "/MB_P16")
+			(class "Default")
+			(node
+				(ref "U9")
+				(pin "3")
+				(pinfunction "A_3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "32")
+			(name "/MOTOR_AIN1")
+			(class "Default")
+			(node
+				(ref "R11")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U14")
+				(pin "16")
+				(pinfunction "AIN1_16")
+				(pintype "input")
+			)
+			(node
+				(ref "U4")
+				(pin "4")
+				(pinfunction "B_4")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "33")
+			(name "/MOTOR_AIN2")
+			(class "Default")
+			(node
+				(ref "R12")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U14")
+				(pin "15")
+				(pinfunction "AIN2_15")
+				(pintype "input")
+			)
+			(node
+				(ref "U5")
+				(pin "4")
+				(pinfunction "B_4")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "34")
+			(name "/MOTOR_BIN1")
+			(class "Default")
+			(node
+				(ref "R13")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U14")
+				(pin "9")
+				(pinfunction "BIN1_9")
+				(pintype "input")
+			)
+			(node
+				(ref "U6")
+				(pin "4")
+				(pinfunction "B_4")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "35")
+			(name "/MOTOR_BIN2")
+			(class "Default")
+			(node
+				(ref "R14")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U14")
+				(pin "10")
+				(pinfunction "BIN2_10")
+				(pintype "input")
+			)
+			(node
+				(ref "U7")
+				(pin "4")
+				(pinfunction "B_4")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "36")
+			(name "/MOTOR_ENABLE")
+			(class "Default")
+			(node
+				(ref "R25")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U14")
+				(pin "1")
+				(pinfunction "nSLEEP_1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "37")
+			(name "/MOTOR_FAULT_N")
+			(class "Default")
+			(node
+				(ref "R26")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U14")
+				(pin "8")
+				(pinfunction "nFAULT_8")
+				(pintype "open_collector")
+			)
+		)
+		(net
+			(code "38")
+			(name "/MOTOR_L_MINUS")
+			(class "Default")
+			(node
+				(ref "J71")
+				(pin "2")
+				(pinfunction "PIN2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U14")
+				(pin "4")
+				(pinfunction "AOUT2_4")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "39")
+			(name "/MOTOR_L_PLUS")
+			(class "Default")
+			(node
+				(ref "J71")
+				(pin "1")
+				(pinfunction "PIN1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U14")
+				(pin "2")
+				(pinfunction "AOUT1_2")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "40")
+			(name "/MOTOR_R_MINUS")
+			(class "Default")
+			(node
+				(ref "J8")
+				(pin "2")
+				(pinfunction "PIN2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U14")
+				(pin "5")
+				(pinfunction "BOUT2_5")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "41")
+			(name "/MOTOR_R_PLUS")
+			(class "Default")
+			(node
+				(ref "J8")
+				(pin "1")
+				(pinfunction "PIN1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U14")
+				(pin "7")
+				(pinfunction "BOUT1_7")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "42")
+			(name "/MOTOR_VCP")
+			(class "Default")
+			(node
+				(ref "C46")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U14")
+				(pin "11")
+				(pinfunction "VCP_11")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "43")
+			(name "/MOTOR_VINT")
+			(class "Default")
+			(node
+				(ref "C45")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U14")
+				(pin "14")
+				(pinfunction "VINT_14")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "44")
+			(name "/PG_OPEN")
+			(class "Default")
+			(node
+				(ref "R1")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "PG_2")
+				(pintype "open_collector")
+			)
+		)
+		(net
+			(code "45")
+			(name "/QTRX_OUT1")
+			(class "Default")
+			(node
+				(ref "J70")
+				(pin "3")
+				(pinfunction "OUT1_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U70")
+				(pin "2")
+				(pinfunction "S1_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "46")
+			(name "/QTRX_OUT2")
+			(class "Default")
+			(node
+				(ref "J70")
+				(pin "4")
+				(pinfunction "OUT2_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "U70")
+				(pin "5")
+				(pinfunction "S2_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "47")
+			(name "/QTRX_OUT3")
+			(class "Default")
+			(node
+				(ref "J70")
+				(pin "5")
+				(pinfunction "OUT3_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "U70")
+				(pin "9")
+				(pinfunction "S3_9")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "48")
+			(name "/SW_L1")
+			(class "Default")
+			(node
+				(ref "L1")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "11")
+				(pinfunction "SW_L1_11")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "49")
+			(name "/SW_L2")
+			(class "Default")
+			(node
+				(ref "L1")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "9")
+				(pinfunction "SW_L2_9")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "50")
+			(name "/UNUSED_D4")
+			(class "Default")
+			(node
+				(ref "U70")
+				(pin "11")
+				(pinfunction "D4_11")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "51")
+			(name "/UNUSED_S4")
+			(class "Default")
+			(node
+				(ref "U70")
+				(pin "12")
+				(pinfunction "S4_12")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "52")
+			(name "/US_ECHO")
+			(class "Default")
+			(node
+				(ref "J21")
+				(pin "3")
+				(pinfunction "ECHO_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U9")
+				(pin "4")
+				(pinfunction "B_4")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "53")
+			(name "/US_TRIG")
+			(class "Default")
+			(node
+				(ref "J21")
+				(pin "2")
+				(pinfunction "TRIG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "4")
+				(pinfunction "B_4")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "54")
+			(name "/VAUX")
+			(class "Default")
+			(node
+				(ref "C6")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "VAUX_3")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "55")
+			(name "/VMOTOR")
+			(class "Default")
+			(node
+				(ref "C2")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C43")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C44")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C46")
+				(pin "2")
+				(pinfunction "NEG_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C9")
+				(pin "1")
+				(pinfunction "POS_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "1")
+				(pinfunction "VM_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "12")
+				(pinfunction "VIN_A_12")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "13")
+				(pinfunction "VIN_B_13")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "14")
+				(pinfunction "EN_14")
+				(pintype "input")
+			)
+			(node
+				(ref "U14")
+				(pin "12")
+				(pinfunction "VM_12")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "57")
+			(name "unconnected-(J70-CTRL-Pad6)")
+			(class "Default")
+			(node
+				(ref "J70")
+				(pin "6")
+				(pinfunction "CTRL_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "58")
+			(name "unconnected-(J70-NC-Pad7)")
+			(class "Default")
+			(node
+				(ref "J70")
+				(pin "7")
+				(pinfunction "NC_7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "59")
+			(name "unconnected-(U1-FB2-Pad6)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "FB2_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "60")
+			(name "unconnected-(U2-NC-Pad4)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "4")
+				(pinfunction "NC_4")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "61")
+			(name "unconnected-(U3-NC-Pad4)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "4")
+				(pinfunction "NC_4")
+				(pintype "no_connect")
+			)
+		)
+	)
+)

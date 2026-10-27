@@ -1,0 +1,9 @@
+Priority,Net class,Routing rule,Risk
+1,BATTERY / VMOTOR,Use short wide traces; fuse/switch/polarity protection before branches; size to measured stall current,Motor current and protection parts not released
+2,5V buck boost,Follow TI reference layout; compact input/inductor/switch-node/output loops; no analog below SW,Converter layout not reviewed
+3,GND,Continuous B.Cu ground plane; avoid splits; stitch at high-current return,Ground return sharing can pollute ADC
+4,3V3 and 3V0,Local decoupling near IC pins; no 3V3 to micro:bit edge direct tie,USB/battery power path untested
+5,MOTOR outputs,Pair routes to side connectors; keep away from sensor inputs and antenna,DRV8833 thermal/current limits
+6,QTRX analog,Keep 3 channels short and matched in topology; RC next to ADC side; away from switching loops,TMUX powered-off behavior and ADC margins
+7,LED chain,Buffer then series resistor at first DIN; local bypass each LED,5V logic timing and current budget
+8,GPIO,Confirm physical 80-contact socket pad mapping before net assignment,BLOCKER: pin numbering not verified

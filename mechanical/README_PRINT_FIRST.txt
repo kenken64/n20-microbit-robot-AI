@@ -1,0 +1,6 @@
+N20 micro:bit robot reconstructed prototype - NOT original Revision U CAD.
+Units: millimeters. FDM PETG. Start with a 0.2 mm layer, 4 perimeters, 25-35% infill, and print one of each for fit testing before printing multiples.
+Parts: chassis x1; motor_saddle x2; battery_cradle x1; ultrasonic_holder x1; caster_bridge x1; shim_05/10/20 as required; pcb_spacer x4; pcb_template optional x1.
+Mechanical basis: chassis 118 x 114; PCB envelope 86 x 103, 74 x 91 M3 hole pattern; 32 mm wheels; Pololu #951 caster candidate; 4xAA holder; N20 motors; front ultrasonic; vertical rear-facing micro:bit.
+IMPORTANT: Reconstruction is an engineering starting point, not a tested fit. Verify motor shaft axis height and saddle geometry, battery cradle fit and service access, actual ultrasonic hole pattern, caster ball ground contact, micro:bit socket clearance, and screw lengths. Battery cradle mounting may overlap PCB access; test physically before final assembly. The saddle is a simplified clamp body and may need a separate strap/retainer. Do not fabricate final PCB based only on these files.
+Open robot_parts.scad in OpenSCAD; edit 'part' to render a selected part and adjust geometry. Exported STL files were generated with OpenSCAD CLI.

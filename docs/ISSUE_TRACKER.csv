@@ -1,0 +1,10 @@
+ERC finding,AU action,Status
+U1 FB2 pin 6,Changed symbol pin type to output per TI,Changed; ERC pending
+U1 VIN_A,No speculative power flag,Open
+U4 VCCA,Source trace needed,Open
+J70 CTRL,Physical pinout and emitter control pending,Open
+J70 NC,No-connect placement/pin mapping pending,Open
+J2,DNP maintained,Open
+D20 GND,Net exists; power-source model pending,Open
+Off-grid warnings,Avoided unsafe global snap,Open
+Missing footprints,Manufacturer land patterns required,Open

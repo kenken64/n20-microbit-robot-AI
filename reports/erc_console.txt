@@ -1,0 +1,3 @@
+Found 476 violations
+Saved ERC Report to erc_report.txt
+KiCad exit status: 0

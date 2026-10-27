@@ -1,0 +1,1 @@
+Corrected unsupported KiCad pin electrical type open_drain to open_collector for nFAULT. No wires changed. This is a syntax fix candidate, NOT ERC validated. If load still fails, capture GUI parser error.

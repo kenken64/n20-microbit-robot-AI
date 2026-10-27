@@ -1,0 +1,10 @@
+# KiCad local history (has its own nested git repo), locks, autosaves and backups
+.history/
+*.lck
+_autosave-*
+*-backups/
+fp-info-cache
+
+# macOS
+.DS_Store
+._*
