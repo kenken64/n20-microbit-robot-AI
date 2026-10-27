@@ -1,0 +1,6 @@
+ERC category,Count,Resolution policy
+endpoint_off_grid,367,Rebuild schematic on 1.27 mm grid and compare netlists before/after
+footprint_link_issues,7,Replace with approved exact manufacturer land patterns
+isolated_pin_label,3,Check intentionally unused signal and terminate without false connectivity
+pin_not_connected,4,Review affected pins against manufacturer data and actual netlist
+power_pin_not_driven,3,Review affected pins against manufacturer data and actual netlist

@@ -1,5 +1,1 @@
-# Revision AT - manufacturing release control
-
-This package is a reproducible engineering baseline, NOT an orderable PCB. It includes the last available Revision AS schematic, its project-local custom symbols, original ERC report, and placement/routing planning files. The new script fails closed until schematic ERC and PCB DRC pass. It does not generate Gerbers automatically and does not claim the outstanding circuit issues are fixed.
-
-On macOS: `bash scripts/run_release_gate_mac.sh`. Send back `reports/validation/erc_report.txt` and a routed `robot_final.kicad_pcb` when available. Consult docs/RELEASE_STATUS.md for all blockers.
+Revision AV contains a mechanically dimensioned KiCad PCB skeleton, source Rev AU schematic, original reconstructed OpenSCAD and ERC audit. This is not a routed PCB and is NOT a JLCPCB order ZIP. Open pcb_planning/N20_RevAV_MECHANICAL_ONLY.kicad_pcb to inspect board shape and mounting holes. Do not fabricate until manufacturer footprints, connector mating, ERC/DRC and routing are verified. Run bash scripts/RELEASE_GATE_MAC.sh for diagnostic reports (always exits nonzero to prevent accidental release).

@@ -1,0 +1,25 @@
+feature,x_mm,y_mm,z_mm,notes
+origin,0,0,0,Ground plane; negative Y front
+chassis_center,0,0,6,Base underside z6; top z10
+pcb_center,0,0,34,PCB underside z34; board 86x103x1.6
+pcb_hole_front_left,-37,-45.5,34,M3 clearance
+pcb_hole_front_right,37,-45.5,34,M3 clearance
+pcb_hole_rear_left,-37,45.5,34,M3 clearance
+pcb_hole_rear_right,37,45.5,34,M3 clearance
+motor_left,-49,0,16,Axle along X; motor body center cavity approximately z17
+motor_right,49,0,16,Axle along X; motor body center cavity approximately z17
+wheel_left,-74,0,16,32mm wheel radius16
+wheel_right,74,0,16,32mm wheel radius16
+battery_cradle_center,0,0,10,Cradle outer width66 length62; battery holder nominal 16mm
+battery_hole_1,-24,-22,10,M2.5 clearance
+battery_hole_2,24,-22,10,M2.5 clearance
+battery_hole_3,-24,22,10,M2.5 clearance
+battery_hole_4,24,22,10,M2.5 clearance
+ultrasonic_holder_center,0,-56,10,Bracket bolt holes global y=-49; upright global y=-64
+ultrasonic_hole_left,-20,-49,10,M2.5 clearance
+ultrasonic_hole_right,20,-49,10,M2.5 clearance
+caster_bridge_center,0,46,10,Recess center; physical ground contact unverified
+caster_bridge_hole_1,-14,39,10,M2.5 clearance
+caster_bridge_hole_2,14,39,10,M2.5 clearance
+caster_bridge_hole_3,-14,53,10,M2.5 clearance
+caster_bridge_hole_4,14,53,10,M2.5 clearance
